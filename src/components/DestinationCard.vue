@@ -1,5 +1,7 @@
 <template>
   <div class="flex items-center rounded-lg bg-white shadow-lg overflow-hidden">
+    <source type="image/webp" :srcset="destination.imageWebp">
+    <source type="image/jpeg" :srcset="destination.imageUrl">
     <img class="h-32 w-32 flex-shrink-0" :src="destination.imageUrl" :alt="destination.imageAlt">
     <div class="px-6 py-4">
       <h3 class="text-lg font-semibold text-gray-800">{{ destination.city }}</h3>

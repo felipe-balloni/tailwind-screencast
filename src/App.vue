@@ -59,6 +59,7 @@ export default {
           averagePrice: 120,
           propertyCount: 76,
           imageUrl: '/img/toronto.jpg',
+          imageWebp: '/img/toronto.webp',
           imageAlt: 'Toronto skyline',
         },
         {
@@ -66,13 +67,15 @@ export default {
           averagePrice: 215,
           propertyCount: 43,
           imageUrl: '/img/malibu.jpg',
+          imageWebp: '/img/malibu.webp',
           imageAlt: 'Cliff in Malibu',
         },
         {
           city: 'Chicago',
           averagePrice: 130,
           propertyCount: 115,
-          imageUrl: '/img/chicago.jpg',
+          imageUrl: '/img/malibu.jpg',
+          imageWebp: '/img/malibu.webp',
           imageAlt: 'Chicago skyline',
         },
         {
@@ -80,6 +83,7 @@ export default {
           averagePrice: 135,
           propertyCount: 63,
           imageUrl: '/img/seattle.jpg',
+          imageWebp: '/img/seattle.webp',
           imageAlt: 'Seattle skyline',
         },
         {
@@ -87,6 +91,7 @@ export default {
           averagePrice: 85,
           propertyCount: 47,
           imageUrl: '/img/colorado.jpg',
+          imageWebp: '/img/colorado.webp',
           imageAlt: 'Lake in Colorado',
         },
         {
@@ -94,6 +99,7 @@ export default {
           averagePrice: 115,
           propertyCount: 86,
           imageUrl: '/img/miami.jpg',
+          imageWebp: '/img/miami.webp',
           imageAlt: 'Beach in Miami',
         },
       ]
