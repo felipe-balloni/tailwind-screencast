@@ -4,6 +4,8 @@
         <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
             <div class="xl:max-w-lg xl:ml-auto">
                 <img class="h-10" src="/img/logo.svg" alt="Workation">
+                <source type="image/webp" srcset="/img/beach-work.webp">
+                <source type="image/jpeg" srcset="/img/beach-work.jpg">
                 <img class="mt-6 rounded-lg shadow-md sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden" src="/img/beach-work.jpg" alt="Woman workationing on the beach">
                 <h1 class="mt-6 text-2xl font-bold text-gray-900 leading-tight sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">
                     You can work from anywhere.
